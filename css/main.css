@@ -2596,4 +2596,118 @@ footer .copyright span:last-child::after {
 	background: #000000;
 }
 
+* I LOVE CODING ANIMATION START */
+section.beating-heart {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url('../images/hero-bg.jpg') no-repeat right bottom / cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero-bg.jpg') no-repeat right bottom / cover;
+  text-align: center;
+  height: 100vh;
+  padding: 50px 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+section .beating-heart span {
+  font-size: 50px;
+}
+
+/*section.beating-heart h2 {
+  margin-bottom: 30px;
+
+}*/
+
+section.beating-heart h2::after {
+  background: white;
+}
+
+.heart {
+  position: relative;
+  width: 50px;
+  margin: 0 30px;
+  -webkit-animation: pulse 1s infinite;
+          animation: pulse 1s infinite;
+}
+
+.heartsvg {
+	  /*margin: auto;*/
+  max-width: 700px;
+  height: 100px;
+  margin-left: 35%;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    15% {
+        -webkit-transform: scale(1.25);
+                transform: scale(1.25);
+    }
+
+    25% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+    }
+
+    35% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+
+    50% {
+        -webkit-transform: scale(2);
+                transform: scale(2);
+    }
+
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
+
+    15% {
+        -webkit-transform: scale(1.25);
+                transform: scale(1.25);
+    }
+
+    25% {
+      -webkit-transform: scale(1.15);
+              transform: scale(1.15);
+    }
+
+    35% {
+      -webkit-transform: scale(1.25);
+              transform: scale(1.25);
+    }
+
+    50% {
+        -webkit-transform: scale(2);
+                transform: scale(2);
+    }
+
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+
 /*# sourceMappingURL=main.css.map */
