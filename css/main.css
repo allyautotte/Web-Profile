@@ -2640,9 +2640,9 @@ section.beating-heart h2::after {
 
 .heartsvg {
 	  /*margin: auto;*/
-  max-width: 700px;
-  height: 100px;
-  margin-left: 35%;
+	  max-width: 700px;
+	  height: 100px;
+	  margin-left: 35%;
 }
 
 @-webkit-keyframes pulse {
